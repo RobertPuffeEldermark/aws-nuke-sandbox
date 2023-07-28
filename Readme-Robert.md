@@ -51,6 +51,22 @@ sudo mv aws-nuke /usr/local/bin/aws-nuke
 aws-nuke -h
 
 
+# change to the directory where the config.yml file is located
+
+cd workspace\aws-nuke-sandbox\
+
+# validate config file
+
+nano config.yml
+
+# run a test nuke
+
+aws-nuke -c nuke-config.yml --profile aws_nuke
+
+# If the test looks good, run the real nuke
+
+add --no-dry-run to the previous command
+
 
 
 

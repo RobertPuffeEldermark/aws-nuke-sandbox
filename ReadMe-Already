@@ -1,0 +1,13 @@
+##
+##
+## Readme for already setup AWS-Nuke Server
+##
+##
+
+# Start and connect to EC2 instance 
+# region: us-east-1
+# instance AWS Nuke Sandbox
+
+# Create IAM credentials for nuke user
+## Open IAM
+## Open the user 

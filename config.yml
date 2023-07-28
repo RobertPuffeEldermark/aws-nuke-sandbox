@@ -15,9 +15,21 @@ account-blocklist:
 - "694391270774" #  viibrant.com
 
 resource-types:
-  # don't nuke IAM users
+  # don't nuke IAM users, access keys, or policy attachments for iam users
   excludes:
   - IAMUser
+  - IAMUserAccessKey
+  - IAMUserPolicyAttachment
+
 
 accounts:
-  "134159085505": {} # Eldermark Modern Sandbox
+  "134159085505": {} # eldermark-modern-sandbox
+    filters:
+      IAMUser:
+        -"aws-nuke"
+      IAMUserPolicyAttachment:
+      - "aws-nuke -> AdministratorAccess"
+      IAMUserAccessKey:
+      - "aws-nuke -> AKIAR6PEBF7AYGCZOZGJ"
+      Route53HostedZone:
+      - "Z08628273NQNEUV998DHX"
