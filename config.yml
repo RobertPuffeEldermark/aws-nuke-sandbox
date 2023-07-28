@@ -14,17 +14,9 @@ account-blocklist:
 - "946405160075" #  LivTech
 - "694391270774" #  viibrant.com
 
-resource-types:
-  # don't nuke IAM users, access keys, or policy attachments for iam users
-  excludes:
-  - IAMUser
-  - IAMUserAccessKey
-  - IAMUserPolicyAttachment
-
-
 accounts:
   "134159085505": {} # eldermark-modern-sandbox
-    filters:
+  filters:
       IAMUser:
         - "aws-nuke"
       IAMUserPolicyAttachment:
