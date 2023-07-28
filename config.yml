@@ -15,13 +15,14 @@ account-blocklist:
 - "694391270774" #  viibrant.com
 
 accounts:
-  "134159085505": {} # eldermark-modern-sandbox
-  filters:
+  "134159085505": # eldermark-modern-sandbox
+    filters:
       IAMUser:
         - "aws-nuke"
       IAMUserPolicyAttachment:
         - "aws-nuke -> AdministratorAccess"
       IAMUserAccessKey:
         - "aws-nuke -> AKIAR6PEBF7AYGCZOZGJ"
-      Route53HostedZone:
+      Route53HostedZone:        
         - "Z08628273NQNEUV998DHX"
+
