@@ -14,5 +14,10 @@ account-blocklist:
 - "946405160075" #  LivTech
 - "694391270774" #  viibrant.com
 
+resource-types:
+  # don't nuke IAM users
+  excludes:
+  - IAMUser
+
 accounts:
   "134159085505": {} # Eldermark Modern Sandbox
