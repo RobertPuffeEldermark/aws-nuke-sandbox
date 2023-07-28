@@ -1,0 +1,18 @@
+regions:
+- us-east-2
+- global
+
+account-blocklist:
+- "740485161407" # Carextech
+- "431575713051" # Eldermark AWS 
+- "924927984049" # Modern Demo
+- "507081572064" # Deployment
+- "558114091518" #  Eldermark Modern Dev
+- "177830934009" #  Eldermark Modern Production
+- "951432797269" #  ePay Production
+- "713251062987" #  ePay QA
+- "946405160075" #  LivTech
+- "694391270774" #  viibrant.com
+
+accounts:
+  "134159085505": {} # Eldermark Modern Sandbox
