@@ -26,10 +26,10 @@ accounts:
   "134159085505": {} # eldermark-modern-sandbox
     filters:
       IAMUser:
-        -"aws-nuke"
+        - "aws-nuke"
       IAMUserPolicyAttachment:
-      - "aws-nuke -> AdministratorAccess"
+        - "aws-nuke -> AdministratorAccess"
       IAMUserAccessKey:
-      - "aws-nuke -> AKIAR6PEBF7AYGCZOZGJ"
+        - "aws-nuke -> AKIAR6PEBF7AYGCZOZGJ"
       Route53HostedZone:
-      - "Z08628273NQNEUV998DHX"
+        - "Z08628273NQNEUV998DHX"
